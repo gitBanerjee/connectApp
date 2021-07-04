@@ -1,0 +1,27 @@
+nav {
+  float: right;
+  width: 40%;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  margin-left: 50px;
+  font-size: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(16, 89, 122);
+}
+
+a:hover,
+a:active,
+a.active {
+  color: rgb(59, 182, 182);
+}
